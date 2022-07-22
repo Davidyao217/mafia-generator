@@ -22,7 +22,7 @@ def main():
         names.append(nameinpt)
         nOfPlayer = nOfPlayer + 1
     '''
-    list = random.sample(range(1, nOfPlayer), 3)
+    list = random.sample(range(0, nOfPlayer), 3)
   
     print(names[list[0]] + " is the mafia")    
     print(names[list[1]] + " is the doctor")
